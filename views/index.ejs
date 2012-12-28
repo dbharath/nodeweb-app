@@ -2,7 +2,6 @@
   <%- partial('profile.ejs') %>
  <%}else{%>
  <div>
- <div class="pull-left logoutclass" ></div>
  <div class="pull-left">
  <form class="form-signup" id="form-signup">
       <h2 class="form-signin-heading">Please sign up here!</h2>
@@ -11,20 +10,19 @@
         <input type="text" name="phone" class="input-block-level" placeholder="Phone No.">
         <input type="text" name="email" class="input-block-level" placeholder="Email address">
         <input type="password" name="password"  class="input-block-level" placeholder="Password">
-        <button class="btn btn-large btn-primary" id="form-signup-btn" type="submit">Sign Up</button>
         <br>
+        <button class="btn btn-large btn-primary" id="form-signup-btn" type="submit">Sign Up</button>
       </form>
 </div>
-<div class="pull-left" style="margin-left:25px; background-color:white;">
+<div class="pull-left" style="margin-left:25px; background-color:white;"> 
  <form class="form-signin" id="form-signin">
-      <h2 class="form-signup-heading" style="margin-left:5px">Please sign in here!</h2>
+      <h2 class="form-signin-heading">Registered User !</h2>
         <input type="text" name="femail" class="input-block-level" placeholder="Email address">
-        <input type="password" name="fpassword"  class="input-block-level" style="margin-left:5px" placeholder="Password">
-        <br>
-        <button class="btn btn-large btn-primary" id="form-signin-btn" align="center" type="submit">Sign In</button>
-        <div class="pull-right" id="div_error">
-        </div>
+        <input type="password" name="fpassword"  class="input-block-level" placeholder="Password">
+      <button class="btn btn-large btn-primary" id="form-signin-btn" align="center" type="submit">Sign In</button>
 </form>
+<div class="pull-right" id="div_error">
+</div>
 </div>
 <div style="clear:both"></div>
  </div>
