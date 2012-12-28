@@ -1,0 +1,44 @@
+{ 
+    "name": "nodestore",
+    "description": "Urbantouch E-Commerce Store",
+    "version": "0.0.1",
+    "dependencies": {
+        "ejs": "=0.6.1",
+        "mysql": "=0.9.5",
+        "express": "=2.5.10",
+        "openid": "=0.4.1",
+        "connect-redis": "=1.2.0",
+        "nodemailer": "=0.3.7",
+        "moment": "=1.4.0",
+        "bcrypt": "=0.6.0",
+        "vows": "=0.6.2",
+        "request": "=2.9.153",
+        "generic-pool": "=1.0.9",
+        "acl": "=0.1.4",
+        "redis": "=0.7.1",
+        "optimist": "=0.3.1",
+        "pdfkit" : "=0.1.9",
+        "jsdom": "=0.2.13",
+        "xml2js": "=0.1.13",
+        "uglify-js": "=1.2.5",
+        "csv": "=0.0.11",
+        "clean-css": "=0.3.2",
+        "crypto": "=0.0.3",
+        "xmlrpc":"=0.9.4",
+        "async": "=0.1.18",
+        "amon" : "=0.3.1",
+        "xmlbuilder"  : "=0.3.1",
+        "magickwand"  : "=0.0.7",
+        "mime" : "=1.2.5",
+        "mimelib": "=0.2.7",
+        "cache": "git+ssh://git@urbantouch.unfuddle.com:urbantouch/cache.git"
+    },
+    "devDependencies": {
+      "utphantom": "git+ssh://git@urbantouch.unfuddle.com:urbantouch/utphantom.git"
+    },
+    "repository": { 
+        "type":  "git",
+        "url":   "git+ssh://urbantouch.unfuddle.com:urbantouch/nodestore.git"
+    },
+    "engines": { "node" : ">=0.6.0" }
+}

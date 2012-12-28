@@ -1,0 +1,47 @@
+<div id="signin-wrapper">
+  <div id='signin-main'>
+    <div class="label hide" id="server-error1"></div>
+    <h3>Sign In</h3>
+    <form id='signin' action='/user/login' method='post'>
+      <div class="clearfix" id="signin-user-div">
+        <label for="signin-user">Email </label>
+        <div class="input-prepend">
+          <input class="medium" type="text"
+            title="Enter your registered email address" name="username"
+            id="login-user" placeholder="email" />
+        </div>
+      </div>
+      <div class="clearfix" id="signin-verify-div">
+        <label for="signin-verify">Password</label>
+        <div class="input-prepend">
+          <input class="medium" type="password"
+            title="Enter the password" name="password" id="login-pass"
+            placeholder="password" />
+        </div>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit" title="Sign In">Sign
+          In</button>
+        <button id="signin-reset" class="btn btn-info" type="reset"
+          title="Reset">Reset</button>
+      </div>
+    </form>
+  <div class="signin-border"></div>
+  <div id="sign-up">
+    <div class="newuser-signup">
+      <h3>New User?</h3>
+      <p class="newuser-signup-text linedAnchor">
+        Sign Up & Get your coupons worth Rs.1000 now. Enjoy the convenience of
+        registration. Save shipping info, view order and billing
+        history. We promise that we will never spam you. <a
+          id="newUser_privacy_policy" title="Privacy Policy">Privacy
+          Policy</a>
+      </p>
+      <button class="btn btn-primary" id="sign-up-button"
+        title="Sign Up" data-toggle="modal" href="#modal-signup"
+        data-backdrop="true" data-keyboard="true" type="submit">Sign
+        Up</button>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
