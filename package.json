@@ -1,5 +1,5 @@
 { 
-    "name": "nodestore",
+    "name": "Blogging",
     "description": "Micro Blogging Site",
     "version": "0.0.1",
     "dependencies": {
