@@ -53,8 +53,8 @@ app.configure('development', function () {
 
 require('./routes')(app);
 
-app.listen(process.argv[2]);
-logger.log("Node Server[" + process.pid + "] listening on port " + process.argv[2] + " in " + app.settings.env,'init');
+app.listen(process.env.PORT);
+logger.log("Node Server[" + process.pid + "] listening on port " + process.env.PORT + " in " + app.settings.env,'init');
 
 exports.app = app;
 
