@@ -10,6 +10,8 @@ var errorHandler = require('./lib/errorHandler');
 
 var app = express.createServer();
 
+app.set('port' ,process.env.port || config.port);
+
 app.configure(function () {
   app.set('root', __dirname);
 
@@ -53,7 +55,7 @@ app.configure('development', function () {
 
 require('./routes')(app);
 
-app.listen(config.port);
+app.listen(app.get('port'));
 logger.log("Node Server[" + process.pid + "] listening on port " + config.port + " in " + app.settings.env,'init');
 
 exports.app = app;
