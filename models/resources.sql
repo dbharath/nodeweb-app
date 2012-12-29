@@ -1,4 +1,4 @@
-Drop Table user;
+Drop Table if exists user;
 
 CREATE TABLE `user` (
   `id` mediumint(9) unsigned NOT NULL AUTO_INCREMENT,
@@ -19,7 +19,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;
 
 
-Drop Table user_message;
+Drop Table if exists user_message;
 
 CREATE TABLE `user_message` (
   `id` mediumint(9) unsigned NOT NULL AUTO_INCREMENT,
@@ -31,7 +31,7 @@ CREATE TABLE `user_message` (
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 
-Drop Table friends;
+Drop Table if exists friends;
 
 CREATE TABLE `friends` (
   `id` mediumint(9) NOT NULL AUTO_INCREMENT,

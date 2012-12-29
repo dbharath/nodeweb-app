@@ -20,6 +20,7 @@
         "csv": "=0.0.11",
         "clean-css": "=0.3.2",
         "async": "=0.1.18",
+        "amon" : "=0.3.1",
         "xmlbuilder"  : "=0.3.1",
         "magickwand"  : "=0.0.7"
     },
