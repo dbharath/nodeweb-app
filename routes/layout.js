@@ -8,9 +8,8 @@ module.exports = function (app) {
   });
   app.post('/user/signupdetails',signup.validate,signup.signup,signup.getFriends,signup.getMessage);
   app.post('/user/signin',signup.signin,signup.getFriends,signup.getMessage);
-  app.post('/user/follow',signup.follow,signup.getMessage);
+  app.post('/user/follow',signup.follow,signup.getFriends,signup.getMessage);
   app.post('/user/updateStatus',signup.updateStatus,signup.getMessage);
   app.post('/user/logout', signup.logout);
-
 };
 
