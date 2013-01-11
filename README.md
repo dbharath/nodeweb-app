@@ -1,4 +1,4 @@
 microBlogging
 =============
 
-It's a sample application just like facebook which can be used to follow users.
+It's a sample application to follow comment and status update among collegue and friends.
