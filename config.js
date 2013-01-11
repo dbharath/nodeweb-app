@@ -1,5 +1,5 @@
 module.exports = config = {
-  port: 27918,
+  port: 8000,
   db_options: {
     host: 'localhost',
     port: 3306,
@@ -14,18 +14,18 @@ module.exports = config = {
   },
   contact_options: {
     store_url: '//localhost:2341',
-    email: 'script@urbantouch.com',
-    replyTo: 'wecare@urbantouch.co.in',
-    phone: '+91-9019-299-299',
+    email: 'devesh.bharathan@dtu.co.in',
+    replyTo: 'devesh.bharathan@dtu.co.in',
+    phone: '+91-9868-233-519',
     times: '9AM-8PM'
   },
   email: {
-    sender: 'Micro Blog<peeyushsrivastava89@gmail.com>',
+    sender: 'Micro Blog<devesh.bharathan@dtu.co.in>',
     subjectPrefix: '',
     smtp: {
       host: 'smtp.gmail.com',
       port: 465,
-      user: 'experttally123@gmail.com',
+      user: 'devesh.bharathan@dtu.co.in',
       pass: 'script@ut!',
       use_authentication: true,
       ssl: true
